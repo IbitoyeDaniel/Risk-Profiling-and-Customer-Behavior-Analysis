@@ -60,3 +60,81 @@ Similarly, BMI categories were defined as 'Underweight' (<18.5), 'Normal Weight'
 3. Index Column Addition:
 - An index column was added to the dataset using the 'Add Index Column' feature in Power Query.
 - This index column served as a unique identifier for each record in the dataset, enabling easier tracking and referencing of individual observations during the analysis process.
+---
+### Analysis and Findings
+
+
+1. Problem Statement 1:
+"Examine how demographic and behavioral variables influence insurance charges within our customer base."
+
+Findings:
+
+- Age has a significant impact on insurance charges, with older individuals generally experiencing higher charges compared to younger counterparts.
+- Smokers tend to have substantially higher insurance charges compared to non-smokers, indicating the importance of smoking status as a risk factor.
+- Regional variations exist in insurance charges, with certain regions exhibiting higher average charges than others, suggesting potential geographical risk factors.
+
+2. Problem Statement 2:
+"Analyze the correlation between demographic factors and behavioral factors with insurance charges to identify key drivers of risk and customer behavior."
+
+Findings:
+
+- There is a positive correlation between BMI and insurance charges, indicating that higher BMI levels are associated with increased insurance risk and higher charges.
+- The number of children also correlates positively with insurance charges, suggesting that individuals with more dependents may require higher coverage levels, leading to increased charges.
+- Age demonstrates a strong correlation with insurance charges, with charges generally increasing as age advances, reflecting higher risk profiles associated with older age groups.
+
+3. Problem Statement 3:
+"Investigate regional variations in insurance charges and explore how demographic and behavioral factors contribute to these differences, aiming to optimize pricing strategies and market segmentation."
+
+Findings:
+
+- Regional differences in insurance charges are influenced by a combination of demographic and behavioral factors, with age, smoking status, and BMI playing significant roles.
+- Certain regions with higher proportions of smokers or individuals with higher BMI levels tend to have elevated insurance charges, highlighting the importance of considering regional risk factors in pricing strategies.
+- Market segmentation based on regional variations in demographic and behavioral characteristics could enable more targeted pricing and marketing approaches tailored to specific geographical areas.
+
+4. Problem Statement 4:
+"Explore the impact of lifestyle choices, such as smoking status and BMI, on insurance charges, and assess how these factors interact with demographic variables like age and sex to shape risk profiles and customer preferences."
+
+Findings:
+
+- Smoking status emerges as a major determinant of insurance charges, with smokers experiencing substantially higher charges compared to non-smokers across all age groups and regions.
+- BMI also significantly influences insurance charges, with obese individuals facing higher charges compared to those with normal BMI levels, particularly in older age groups.
+- The interaction between demographic variables (such as age and sex) and lifestyle choices (smoking status and BMI) further amplifies the impact on insurance charges, highlighting the importance of considering multiple factors in risk assessment and pricing.
+- 
+5. Problem Statement 5:
+"Assess the relationship between the number of children and insurance charges, considering demographic and behavioral factors, to understand the insurance needs of families and inform product development and marketing strategies."
+
+Findings:
+
+- The number of children positively correlates with insurance charges, indicating that families with more children tend to require higher coverage levels, leading to increased charges.
+- Demographic and behavioral factors such as age, smoking status, and BMI interact with the number of children to shape insurance charges, with older parents and smokers with children facing higher charges.
+- Understanding the insurance needs of families with children is essential for developing targeted insurance products and marketing strategies tailored to this demographic segment.
+
+### Recommendations
+
+1. Personalized Pricing Strategies:
+- Implement personalized pricing strategies that take into account individual risk profiles, demographic characteristics, and lifestyle factors such as smoking status and BMI.
+- Offer discounts or incentives for non-smokers or individuals with healthy BMI levels to encourage healthier behaviors and mitigate insurance risk.
+2. Geographically Targeted Marketing:
+- Develop geographically targeted marketing campaigns that account for regional variations in demographic and behavioral factors influencing insurance charges.
+- Tailor promotional offers and messaging to address the specific insurance needs and preferences of customers in different regions.
+3. Family-Focused Insurance Products:
+- Introduce family-focused insurance products that cater to the unique needs of families with children, providing comprehensive coverage options and flexible pricing plans.
+- Offer discounts or bundled packages for families with multiple children to incentivize enrollment and retention.
+4. Risk Mitigation and Prevention Programs:
+- Invest in risk mitigation and prevention programs aimed at promoting healthier lifestyles and reducing insurance risk associated with factors such as smoking, obesity, and chronic diseases.
+- Partner with healthcare providers, wellness organizations, and community groups to offer educational resources, counseling services, and wellness initiatives to policyholders.
+5. Enhanced Customer Engagement:
+- Enhance customer engagement initiatives through personalized communication, proactive outreach, and targeted educational campaigns.
+- Leverage digital channels and interactive platforms to provide customers with access to self-service tools, educational content, and personalized recommendations based on their individual needs and preferences.
+6. Continuous Monitoring and Adaptation:
+- Continuously monitor market trends, customer preferences, and regulatory changes to adapt pricing strategies, product offerings, and marketing tactics accordingly.
+- Utilize data analytics and predictive modeling techniques to forecast future insurance trends, anticipate customer needs, and proactively adjust business strategies.
+7. Collaboration and Partnerships:
+- Collaborate with industry stakeholders, healthcare providers, and government agencies to develop holistic solutions that address broader societal health challenges and promote sustainable insurance practices.
+- Explore strategic partnerships with technology firms, insurtech startups, and data analytics providers to leverage innovative technologies and advanced analytics capabilities for enhanced risk assessment and customer engagement.
+
+see below a picture of the visualisation created with Power BI
+
+![Risk Profiling and Customer Behavior Analysis](https://github.com/IbitoyeDaniel/Risk-Profiling-and-Customer-Behavior-Analysis/assets/135343194/374ec839-4040-4e31-a89a-147d3356379a)
+
+
